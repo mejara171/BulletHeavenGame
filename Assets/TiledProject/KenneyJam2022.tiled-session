@@ -1,0 +1,45 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Maps/TestMap.tmx",
+    "expandedProjectPaths": [
+        "Tilemaps",
+        "Maps",
+        "."
+    ],
+    "fileStates": {
+        "Maps/TestMap.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 249,
+                "y": 305.5
+            }
+        },
+        "Tilemaps/KenneyTinyDungeon.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 5.5
+        }
+    },
+    "last.imagePath": "C:/Code/CG/p/GitHub/KenneyJam2022/TiledProject/TilemapImages",
+    "map.height": 30,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "Maps/TestMap.tmx",
+        "Tilemaps/KenneyTinyDungeon.tsx"
+    ],
+    "project": "KenneyJam2022.tiled-project",
+    "recentFiles": [
+        "Tilemaps/KenneyTinyDungeon.tsx",
+        "Maps/TestMap.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

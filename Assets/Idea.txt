@@ -1,0 +1,11 @@
+
+
+We have a GRAVE problem. 
+
+Graves are popping up on the map and from them ghost and problems spawn. Player needs to find and kill the grave before it gets out of hand. While the grave is active it will spawn monsters. 
+
+You earn XP and can level up. 
+
+Player autofirest knifes. 
+
+Heavily borrowing from Vampire survivors.
