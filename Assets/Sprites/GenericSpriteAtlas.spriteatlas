@@ -51,15 +51,19 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: d12552f119d75e949aab7f3d6e6fbb3f, type: 3}
   - {fileID: 21300000, guid: 7296f6146d95c214bb2887239836a1d0, type: 3}
   - {fileID: 21300000, guid: 1ea278266050fb34b9e01d47ff815ddb, type: 3}
   - {fileID: 21300000, guid: f04cedb9134e63e49b8800afac904110, type: 3}
   - {fileID: 21300000, guid: 4074dcccdc1cd9c47887d03dfa79db89, type: 3}
+  - {fileID: 21300000, guid: 0736f14f7f062d2478fbbfc70e544ce8, type: 3}
   m_PackedSpriteNamesToIndex:
+  - angel
   - Ghost
   - Wizard
   - Knife
   - KnightNoVisor
+  - cloud
   m_RenderDataMap: {}
   m_Tag: GenericSpriteAtlas
   m_IsVariant: 0

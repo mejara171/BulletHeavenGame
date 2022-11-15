@@ -42,7 +42,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0686f859d5179284aa1319b6fd33192a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f61015cb4ecc57a47b0650b2ce98719c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -139,10 +139,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 638583749, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 638583749, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 638583750, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7296f6146d95c214bb2887239836a1d0, type: 3}
+      objectReference: {fileID: 21300000, guid: d12552f119d75e949aab7f3d6e6fbb3f, type: 3}
     - target: {fileID: 85626303849757276, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
       propertyPath: characterData
       value: 
@@ -151,6 +159,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4706653728282486940, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 51ea4eb8cb5937b49aa590dd1826b4d4, type: 3}
     - target: {fileID: 5678844998016448269, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
       propertyPath: playerHitAS
       value: 
