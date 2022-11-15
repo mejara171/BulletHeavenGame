@@ -11,7 +11,7 @@ public class WeaponHandler : MonoBehaviour
 
     Vector3 fireDirection = new Vector3(1, 0, 0);
 
-    //Other components
+
     CharacterMovementHandler characterMovementHandler;
     ProjectilePoolHandler projectilePoolHandler;
     SFXHandler sfxHandler;

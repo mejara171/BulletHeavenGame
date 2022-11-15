@@ -14,7 +14,6 @@ public class CharacterMovementHandler : MonoBehaviour
 
     bool isPlayer = false;
 
-    //Other components
     Rigidbody2D rigidbody2D_;
     CharacterDataHandler characterDataHandler;
 
@@ -50,16 +49,9 @@ public class CharacterMovementHandler : MonoBehaviour
         }
         else
         {
-            //Reduce movement speed when no buttons are pressed. 
             rigidbody2D_.velocity = Vector2.Lerp(rigidbody2D_.velocity, Vector2.zero, idleFriction);
         }
 
-
-        /*
-        rigidbody2D_.AddForce(inputVector * accelerationSpeed * Time.fixedDeltaTime, ForceMode2D.Impulse);
-
-        rigidbody2D_.velocity = Vector2.ClampMagnitude(rigidbody2D_.velocity, maxSpeed);
-        */
     }
 
     public void SetInput(Vector2 newInput)
@@ -78,7 +70,6 @@ public class CharacterMovementHandler : MonoBehaviour
         maxSpeed = newMovementSpeed;
     }
 
-    //Events
     void OnTriggerEnter2D(Collider2D otherCollider)
     {
         if (!isPlayer) 
@@ -90,7 +81,6 @@ public class CharacterMovementHandler : MonoBehaviour
 
             bottleRoot.GetComponent<BottleHandler>().PullBottleToPlayer(transform);
 
-            //Disable the collider
             otherCollider.enabled = false;
         }
     }

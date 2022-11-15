@@ -17,7 +17,6 @@ public class HPHandler : MonoBehaviour
     int hp = 5; //Is set by the character data scriptable object
     int maxHP = 5;
 
-    //Flashing on hit
     int _IsHitPropertyID = 0;
     bool isFlashingColor = false;
     WaitForSeconds waitTimeUntilRestoreColor = new WaitForSeconds(0.1f);
@@ -53,7 +52,6 @@ public class HPHandler : MonoBehaviour
 
     public void OnUpgrade(float newMaxHP)
     {
-        //Upgrade HP and restore
         maxHP = (int)newMaxHP;
         hp = maxHP;
 
@@ -64,7 +62,6 @@ public class HPHandler : MonoBehaviour
 
     public void OnHit()
     {
-        //CGUtils.DebugLog($"Game object {gameObject.name} was hit");
 
         if(sfxHandler !=null)
             sfxHandler.PlayPlayerHitSFX();

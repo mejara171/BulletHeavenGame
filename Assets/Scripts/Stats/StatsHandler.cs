@@ -79,7 +79,6 @@ public class StatsHandler : MonoBehaviour
             levelUpCanvasGroup.alpha = 1;
             levelUpCanvasGroup.interactable = true;
 
-            //Create a list of potential upgrades
             List<string> potentialUpgrades = new List<string>();
 
             foreach (KeyValuePair<string, float> pair in statsDictonary)
@@ -87,7 +86,6 @@ public class StatsHandler : MonoBehaviour
                 potentialUpgrades.Add(pair.Key);
             }
 
-            //Pick a random stat and make sure they are unique
             int randomIndex = UnityEngine.Random.Range(0, potentialUpgrades.Count-1);
             upgradeOption2 = potentialUpgrades[randomIndex];
             potentialUpgrades.RemoveAt(randomIndex);
@@ -101,7 +99,6 @@ public class StatsHandler : MonoBehaviour
 
     string ConvertStatNameToUIFriendly(string statname)
     {
-        //Conver the string to a stat
         Stats stat = Enum.Parse<Stats>(statname);
 
         switch (stat)
@@ -123,7 +120,6 @@ public class StatsHandler : MonoBehaviour
     {
         float upgradeAmount = 0;
 
-        //Conver the string to a stat
         Stats stat = Enum.Parse<Stats>(statstring);
 
         switch (stat)
@@ -143,7 +139,6 @@ public class StatsHandler : MonoBehaviour
 
         statsDictonary[stat.ToString()] += upgradeAmount;
 
-        //Apply the upgrade
         switch (stat)
         {
             case Stats.maxHP:
@@ -166,7 +161,6 @@ public class StatsHandler : MonoBehaviour
     {
         GameObject[] gravesGameObjects = GameObject.FindGameObjectsWithTag("Grave");
 
-        //Remove a random grave if there are any
         if(gravesGameObjects.Length > 0)
             Destroy(gravesGameObjects[UnityEngine.Random.Range(0, gravesGameObjects.Length)]);
 

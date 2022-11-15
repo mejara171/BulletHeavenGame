@@ -10,7 +10,6 @@ public class AIHandler : MonoBehaviour
 
     WaitForSeconds delayBetweenDamage = new WaitForSeconds(0.5f);
 
-    //Other components
     CharacterMovementHandler characterMovementHandler;
     HPHandler playerHPHandler;
 
@@ -50,10 +49,8 @@ public class AIHandler : MonoBehaviour
 
             float distanceToPlayer = vectorToTarget.magnitude;
 
-            //Move close to the player but do not attempt to stand on the player
             if (distanceToPlayer < 0.9f)
             {
-                //Check if we are close enough to the player to cause damage
                 if (!isDoingDamage)
                     StartCoroutine(DoDamageCO());
             }

@@ -13,7 +13,6 @@ public class ProjectilePoolHandler : MonoBehaviour
 
     private void Awake()
     {
-        //Allocate space for the pool
         objectPool = new ProjectileHandler[poolSize];
 
         for (int i = 0; i < poolSize; i++)
@@ -35,7 +34,6 @@ public class ProjectilePoolHandler : MonoBehaviour
 
     public void FireProjectile(Vector3 postion, Vector3 forwardDirection)
     {
-        //Grab a projectile from the pool and fire it 
         objectPool[poolIndex].FireProjectile(postion, forwardDirection);
 
         poolIndex++;
