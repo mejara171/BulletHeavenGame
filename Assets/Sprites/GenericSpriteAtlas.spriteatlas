@@ -45,20 +45,17 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: ff8061d17b9bc87428905b5e9fb7f6a0, type: 3}
-    - {fileID: 102900000, guid: f6f9d0f0307ab764399b7d4270632f92, type: 3}
     - {fileID: 102900000, guid: b71679107f53ae3409c493fa4952399b, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 51cb274136e6a694cb74812283cc3d00, type: 3}
   - {fileID: 21300000, guid: 7296f6146d95c214bb2887239836a1d0, type: 3}
   - {fileID: 21300000, guid: 1ea278266050fb34b9e01d47ff815ddb, type: 3}
   - {fileID: 21300000, guid: f04cedb9134e63e49b8800afac904110, type: 3}
   - {fileID: 21300000, guid: 4074dcccdc1cd9c47887d03dfa79db89, type: 3}
   m_PackedSpriteNamesToIndex:
-  - GraveCross
   - Ghost
   - Wizard
   - Knife

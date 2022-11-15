@@ -298,7 +298,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 152e3ddf9f2e27849a81d6e125ccfb56, type: 3}
+  m_audioClip: {fileID: 8300000, guid: aee57be0f1aef414dbe5fdec789daf78, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -430,6 +430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HitTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 4706653728282486940, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 51ea4eb8cb5937b49aa590dd1826b4d4, type: 3}
     - target: {fileID: 5678844998016448269, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
       propertyPath: levelUp
       value: 
