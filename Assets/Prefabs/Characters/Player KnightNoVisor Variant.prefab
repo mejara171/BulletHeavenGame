@@ -422,6 +422,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 638583750, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3018556419272258940, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -446,6 +450,14 @@ PrefabInstance:
       propertyPath: playerHitAS
       value: 
       objectReference: {fileID: 94480939235482306}
+    - target: {fileID: 7326094830741811621, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326094830741811621, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 814598854721676936}
     - target: {fileID: 7326094830741811625, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
       propertyPath: m_Name
       value: Player KnightNoVisor Variant
@@ -500,6 +512,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
+--- !u!212 &814598854721676936 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 638583750, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
+  m_PrefabInstance: {fileID: 814598854219408718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2497835630327926834 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3018556419272258940, guid: 3542a222a31becd4eac0f7d73cd9ffe1, type: 3}
